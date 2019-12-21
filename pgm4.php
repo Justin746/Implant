@@ -1,0 +1,32 @@
+<?php
+$a=1234;
+var_dump(is_int($a));
+echo "<br>";
+$b=12.34;
+var_dump(is_int($b));
+echo "<br>";
+$c="hi joida";
+var_dump(is_numeric($c));
+echo "<br>";
+$d=acos(8);
+var_dump(is_int($d));
+echo "<br>";
+$e=2+3;
+var_dump(is_numeric($e));
+echo "<br>";
+$f=100;
+$g="100";
+var_dump($f==$g);
+echo "<br>";
+$f=100;
+$g="100";
+var_dump($f!=$g);
+echo "<br>";
+$f=100;
+$g="100";
+var_dump($f===$g);
+echo "<br>";
+$f=102;
+$g="100";
+var_dump($f!=$g);
+?>
